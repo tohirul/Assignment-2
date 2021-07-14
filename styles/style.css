@@ -137,6 +137,10 @@ header{
 
 /* Thumbnail Ends */
 
+/********
+    Main
+********/
+
 /* Player grid */
 
 .Player-Grid .top-players {
@@ -201,8 +205,6 @@ header{
 
 }
 
-
-
 /* Article-Copa Highlights */
 
 .Highlights{
@@ -233,5 +235,62 @@ header{
 
     width: 570px;
     height: 427px;
+
+}
+
+/* Main End*/
+
+/*********************
+    Footer Options
+**********************/
+
+footer .footer-image img{
+
+    width: 485px;
+    height: 110px;
+
+    margin: 20px 10px 20px 10px;
+
+}
+
+ /* Social Info */
+
+footer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 160px;
+
+}
+
+footer .socials{
+
+    font-size: 32px;
+    color: #E02C6F;
+
+    margin: 20px;
+
+    display: flex;
+
+}
+
+.instagram,
+.dribble,
+.twitter,
+.youtube{
+
+    margin-right: 15px;
+
+}
+
+footer .copyright{
+
+    margin-bottom: 60px;
+    font-size: 18px;
+    color:#2D25A0;
+    font-weight: 700;
 
 }
