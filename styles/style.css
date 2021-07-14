@@ -57,17 +57,21 @@ header{
 
 }
 
-.top-heading .heading .Button{
+
+
+/* Heading Ends */
+
+ /**********************
+ Watch-Live-Watch Now 
+ **********************/
+
+.Button{
 
     display: flex;
     justify-content: center;
     align-items: center;
    
 }
-
-/* Heading Ends */
-
- /* Watch-Live Button */
 
 .Button{
 
@@ -82,7 +86,7 @@ header{
 
     padding: 0 24px;
 
-    background-image: linear-gradient(#E02C6F,rgb(128, 0, 74));
+    background-image: linear-gradient(#e62c70,rgb(128, 0, 74));
 
 }
 
@@ -92,7 +96,7 @@ header{
 
 }
 
-.Button .watch-live{
+.watch-live,.watch-now{
 
     text-decoration: none;
     color: white;
@@ -148,8 +152,8 @@ header{
 
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 25px;
-    grid-row-gap: 30px;
+    grid-column-gap: 35px;
+    grid-row-gap: 35px;
 
 }
 
@@ -174,7 +178,7 @@ header{
 
 .Shadow-Box{
 
-    box-shadow: 15px 15px 15px grey;
+    box-shadow: 15px 15px 25px grey;
 
 }
 
@@ -199,8 +203,35 @@ header{
 
 
 
-.player-details p{
+/* Article-Copa Highlights */
 
-    font-size: 16px;
+.Highlights{
+
+    width: 1440px;
+    height: 450px;
+
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+
+}
+
+.Copa-Highlights{
+
+    width: 470px;
+    height: 310px;
+
+    
+    padding: 2%;
+
+}
+
+
+/* Copa Image */
+
+.Highlights .Copa-Image img{
+
+    width: 570px;
+    height: 427px;
 
 }
