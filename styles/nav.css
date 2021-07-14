@@ -1,0 +1,50 @@
+/* Navigation Bar */
+
+nav{
+
+    width: 1160px;
+    height: 44px;
+    padding: 42px 140px 0px 140px;
+
+    display: flex;
+    justify-content: space-between;
+
+    position: fixed;
+
+}
+
+/* Navigation Menu */
+
+nav .menu a{
+
+    text-decoration: none;
+    color: white;
+    margin-right: 36px;
+
+}
+
+/* User Account Options */
+
+.nav-button .fa-sign-in-alt{
+
+    color: white;
+    margin-right: 8px;
+
+}
+
+.nav-button a{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+/* Hover Options */
+
+a:hover{
+
+    cursor: pointer;
+
+}
+
+/* Navigation Bar End */

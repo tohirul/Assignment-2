@@ -6,12 +6,19 @@ body{
 
 }
 
+/* Header Color*/
+
+header{
+
+    background-color: #2D25A0;
+
+}
+
 /* Top Section */
 
 .top-section{
 
     display: flex;
-    background-color: #2D25A0;
     color: white;
 
 }
@@ -24,6 +31,8 @@ body{
     width: 487px;
     height: 320px;
 }
+
+/* End */
 
 /* Heading */
 
@@ -56,21 +65,30 @@ body{
    
 }
 
+/* Heading Ends */
+
+ /* Watch-Live Button */
+
 .Button{
 
-    margin: 21px 0 0 0 0;
+    margin: 21px;
+    margin-left: 0px;
 
     height: 44px;
     width: 168px;
 
-    border: 2px solid;
-    border-image: linear-gradient(coral,tomato);
-    border-image-slice: 1;
-    border-radius: 5px;
+    border: 2px solid #E02C6F;
+    border-radius: 25px;
 
     padding: 0 24px;
 
-    background-color: #E02C6D;
+    background-image: linear-gradient(#E02C6F,rgb(128, 0, 74));
+
+}
+
+.Button:hover{
+
+    cursor: pointer;
 
 }
 
@@ -80,7 +98,7 @@ body{
     color: white;
     font-size: 16px;
     color: white;
-    padding: 10px;
+    padding: 10px 0px;
 
 }
 
@@ -89,10 +107,14 @@ body{
     margin-left: 8px;
     font-size: 16px;
     color: white;
-    padding: 10px;
+    padding: 10PX 0px;
 
 
 }
+
+/* Button Ends */
+
+
 
 /* Header Thumbnail*/
 
@@ -108,4 +130,6 @@ body{
     height: 438px;
 
 }
+
+/* Thumbnail Ends */
 
