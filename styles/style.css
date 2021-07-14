@@ -5,3 +5,107 @@ body{
     font-family: 'Poppins', sans-serif;
 
 }
+
+/* Top Section */
+
+.top-section{
+
+    display: flex;
+    background-color: #2D25A0;
+    color: white;
+
+}
+
+
+/* Top Heading */
+
+.top-heading{
+
+    width: 487px;
+    height: 320px;
+}
+
+/* Heading */
+
+.top-heading{
+
+    margin: 205px 102px 170px 150px;
+
+}
+
+.top-heading .heading{
+
+    width: 485px;
+    height:230px;
+    font-size: 64px;
+    font-weight: 700;
+
+}
+
+.heading p{
+
+    margin:0px;
+
+}
+
+.top-heading .heading .Button{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.Button{
+
+    margin: 21px 0 0 0 0;
+
+    height: 44px;
+    width: 168px;
+
+    border: 2px solid;
+    border-image: linear-gradient(coral,tomato);
+    border-image-slice: 1;
+    border-radius: 5px;
+
+    padding: 0 24px;
+
+    background-color: #E02C6D;
+
+}
+
+.Button .watch-live{
+
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+
+}
+
+.Button .fa-arrow-right{
+
+    margin-left: 8px;
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+
+
+}
+
+/* Header Thumbnail*/
+
+.header-thumbnail{
+
+    margin: 155px 150px 86px 102px;
+
+}
+
+.header-thumbnail img{
+
+    width: 556px;
+    height: 438px;
+
+}
+
