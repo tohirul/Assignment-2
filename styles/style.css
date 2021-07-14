@@ -137,10 +137,19 @@ header{
 
 .Player-Grid .top-players {
 
-    width: 100px;
+    width: 1080px;
     height: 2020px;
 
     margin: 30px 190px;
+
+}
+
+.Player-Grid .top-players .Grid-Cells{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 30px;
 
 }
 
@@ -150,8 +159,6 @@ header{
     height: 474px;
     
 }
-
-
 
 
 /* Grid Cell Styling*/
@@ -167,7 +174,7 @@ header{
 
 .Shadow-Box{
 
-    box-shadow: 15px 15px 35px grey;
+    box-shadow: 15px 15px 15px grey;
 
 }
 
